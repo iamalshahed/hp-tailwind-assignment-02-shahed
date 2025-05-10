@@ -17,6 +17,13 @@
 
 /* layer */
 
+@layer components{
+    img{
+        user-select: none;
+        pointer-events: none;
+    }
+}
+
 @layer utilities{
     .nav_links{
         @apply text-emerald-950 text-base font-normal leading-normal transition duration-200 ease-in hover:text-red-500;
