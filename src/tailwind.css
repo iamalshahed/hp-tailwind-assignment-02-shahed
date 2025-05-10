@@ -21,4 +21,9 @@
     .nav_links{
         @apply text-emerald-950 text-base font-normal leading-normal transition duration-200 ease-in hover:text-red-500;
     }
+
+    /* card */
+    .card_container{
+        @apply bg-slate-800 text-white px-4 py-10 rounded-[.625rem];
+    }
 }
