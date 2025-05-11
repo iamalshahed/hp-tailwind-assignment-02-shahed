@@ -37,4 +37,27 @@
     .cta_btn{
         @apply flex items-center gap-3 px-6 py-3.5 rounded-full border-2 border-red-500 text-red-500 hover:text-white text-base font-bold cursor-pointer transition duration-200 ease-in hover:bg-red-500;
     }
+
+
+
+    /* base section utilities */
+    .single_card_container{
+        @apply bg-white border border-gray-100 p-4 rounded-lg leading-relaxed relative z-30;
+    }
+
+    .s_c-heading{
+        @apply mt-6 mb-5 text-black text-2xl font-bold leading-loose;
+    }
+
+    .s_c-p{
+        @apply text-slate-500 text-sm font-medium leading-normal;
+    }
+
+    .s_c-overlay{
+        @apply absolute top-0 right-4 -z-10;
+    }
+
+    .s_c-overlay-text{
+        @apply text-red-500 opacity-5 text-[204px] font-extrabold leading-[190px];
+    }
 }
