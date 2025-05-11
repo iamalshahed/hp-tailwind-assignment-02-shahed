@@ -22,6 +22,10 @@
         user-select: none;
         pointer-events: none;
     }
+
+    li{
+        list-style: none;
+    }
 }
 
 @layer utilities{
@@ -68,5 +72,15 @@
 
     .social_btn{
         @apply size-8 grid place-items-center bg-gray-100 rounded-full text-emerald-400 cursor-pointer transition duration-200 ease-in hover:bg-red-500 hover:text-white;
+    }
+
+
+    /* fotter section */
+    .f_link_head{
+        @apply text-teal-900 text-lg font-bold;
+    }
+
+    .f_links{
+        @apply text-teal-900 text-base font-normal leading-normal hover:underline;
     }
 }
